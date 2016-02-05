@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"> 
+
+   <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/browsersettingitems_layout_height"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+android:id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/browsersettingitems_title_padding_left"
+            android:textColor="@drawable/browser_item_title_text_colorlist"
+            android:textSize="@dimen/browsersettingitems_title_text_size" />
+
+        <TextView
+            android:id="@+android:id/summary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/title"
+            android:gravity="center_vertical|right"
+            android:paddingLeft="@dimen/browsersettingitems_content_padding_left"
+            android:singleLine="true"
+            android:textColor="@drawable/browser_item_content_text_colorlist"
+            android:textSize="@dimen/browsersettingitems_content_text_size" />
+
+         <smartisanos.widget.SwitchEx
+            android:id="@+id/checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/browsersettingitems_img_padding_right"
+            android:layout_toRightOf="@id/title"
+            android:clickable="true"
+            android:gravity="right" >
+        </smartisanos.widget.SwitchEx>
+    </RelativeLayout>
+
+    <!-- Preference should place its actual preference widget here. -->
+     <LinearLayout android:id="@+android:id/widget_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:background="@color/black"/>
+
+</LinearLayout>

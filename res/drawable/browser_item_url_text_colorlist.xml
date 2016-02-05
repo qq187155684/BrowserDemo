@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" android:color="@color/browser_history_actionbar_color"/> <!-- pressed -->
+    <item android:color="@color/browser_history_item_url_color"/> <!-- default -->
+
+</selector>

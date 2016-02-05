@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:layout="@layout/pref_empty"
+        android:title="@string/pref_security_show_security_warning_summary" />
+
+    <com.android.browser.preferences.SwitchExPreference
+        android:defaultValue="true"
+        android:key="load_images"
+        android:layout="@layout/browser_preference_switch"
+        android:title="@string/pref_content_load_images" />
+
+    <ListPreference
+        android:dialogTitle="@string/pref_data_preload_dialogtitle"
+        android:entries="@array/pref_data_preload_choices"
+        android:entryValues="@array/pref_data_preload_values"
+        android:key="preload_when"
+        android:layout="@layout/browser_preference_listference_bottom"
+        android:title="@string/pref_data_preload_title" />
+
+    <PreferenceCategory
+        android:layout="@layout/browser_preference_summary"
+        android:title="@string/pref_data_preload_summary" />
+
+    <ListPreference
+        android:dialogTitle="@string/pref_link_prefetch_dialogtitle"
+        android:entries="@array/pref_link_prefetch_choices"
+        android:entryValues="@array/pref_link_prefetch_values"
+        android:key="link_prefetch_when"
+        android:layout="@layout/browser_preference_listference"
+        android:title="@string/pref_link_prefetch_title" />
+
+    <PreferenceCategory
+        android:layout="@layout/browser_preference_summary"
+        android:title="@string/pref_link_prefetch_summary" />
+
+    <PreferenceCategory
+        android:layout="@layout/pref_empty"
+        android:title="@string/pref_security_show_security_warning_summary" />
+
+</PreferenceScreen>

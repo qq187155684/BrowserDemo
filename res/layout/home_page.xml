@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/home_page_background_color"
+    android:visibility="invisible" >
+
+    <com.android.myapidemo.smartisan.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/nav_indicator" />
+
+    <LinearLayout
+        android:id="@id/nav_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioGroup
+            android:id="@+id/dot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/nav_dot_bg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/left_dot"
+                android:button="@drawable/nav_check_dot_selector" />
+
+            <RadioButton
+                android:id="@+id/right_dot"
+                android:button="@drawable/nav_check_dot_selector" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/dot_line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/nav_indicator"
+        android:background="@drawable/nav_dot_shadow" />
+
+</RelativeLayout>

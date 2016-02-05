@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+android:id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/browsersetting_category_summary_margin_bottom"
+        android:layout_marginTop="@dimen/browsersetting_category_summary_margin_top"
+        android:paddingLeft="@dimen/browsersettingitems_title_padding_left"
+        android:paddingRight="@dimen/browsersettingitems_title_padding_right"
+        android:textColor="@color/browser_item_summary_text_color"
+        android:textSize="@dimen/browsersetting_item_sub_title_size" />
+</LinearLayout>

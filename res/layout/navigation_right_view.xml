@@ -1,0 +1,20 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="always"
+    android:scrollbars="none" >
+
+    <com.android.myapidemo.smartisan.navigation.NavigationRightView
+        android:id="@+id/nav_right_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="12dp" >
+
+    </com.android.myapidemo.smartisan.navigation.NavigationRightView>
+
+</ScrollView>

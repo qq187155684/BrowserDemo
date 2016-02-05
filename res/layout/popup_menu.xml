@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/menu_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_item_bottom"
+        android:orientation="vertical" >
+
+        <com.android.myapidemo.smartisan.view.RoundedRectLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.android.myapidemo.smartisan.view.RoundedRectListView
+                android:id="@+id/context_menu_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="@drawable/dividing_line"
+                android:listSelector="@drawable/menu_item_text_selector"
+                android:scrollbars="none" />
+        </com.android.myapidemo.smartisan.view.RoundedRectLinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

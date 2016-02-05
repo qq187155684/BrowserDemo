@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/add_bookmark_new_folder_editext_margin_top2" >
+
+        <RelativeLayout
+            android:id="@+id/bookmark_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_field" > <!-- android:background="@drawable/text_field" -->
+
+            <EditText
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/add_bookmark_new_folder_editext_height"
+                android:layout_gravity="center_vertical"
+                android:background="@color/transparent"
+                android:ellipsize="end"
+                android:focusable="true"
+                android:maxWidth="@dimen/add_bookmark_new_folder_editext_maxwidth"
+                android:paddingRight="@dimen/add_bookmark_new_folder_title_padding_right"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            <!-- wrap_content -->
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/add_bookmark_new_folder_editext_height"
+                android:layout_below="@+id/title"
+                android:layout_gravity="center_vertical"
+                android:background="@color/transparent"
+                android:ellipsize="end"
+                android:focusable="true"
+                android:inputType="textUri"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            <!-- android:hint="@string/http" -->
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/clear_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right|center_vertical"
+            android:paddingRight="@dimen/add_bookmark_new_folder_clear_button_padding"
+            android:src="@drawable/clear_btn_selector" >
+        </ImageView>
+
+        <RelativeLayout
+            android:id="@+id/folder_path"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bookmark_edit"
+            android:layout_marginTop="@dimen/add_bookmark_new_folder_editext_margin_top"
+            android:background="@drawable/sub_item_back_single_selector" >
+
+            <TextView
+                android:id="@+id/folder_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="@dimen/browsersettingitems_title_padding_left"
+                android:text="@string/bookmarks_save_target"
+                android:textSize="@dimen/browsersettingitems_title_text_size"
+                android:textColor="@drawable/browser_item_title_text_colorlist" />
+
+            <TextView
+                android:id="@+id/folder_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/arrow"
+                android:maxWidth="@dimen/add_bookmark_new_folder_location_maxwidth"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@drawable/browser_item_title_text_colorlist"
+                android:textSize="@dimen/add_bookmark_new_folder_location_text_size" />
+
+            <ImageView
+                android:id="@+id/arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="@dimen/add_bookmark_new_folder_icon_padding"
+                android:src="@drawable/secletor_setting_item_arrow" >
+            </ImageView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/add_bookmark_divider"
+        android:layout_marginLeft="@dimen/add_bookmark_edit_divider_margin_left"
+        android:layout_marginRight="@dimen/add_bookmark_edit_divider_margin_right"
+        android:layout_marginTop="@dimen/add_bookmark_edit_divider_margin_top"
+        android:background="?android:attr/dividerVertical" />
+
+    <!-- android:background="?android:attr/dividerVertical" -->
+
+    <LinearLayout
+        android:id="@+id/folder_selector"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <view
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/add_bookmark_new_folder_list_margin"
+            android:layout_marginRight="@dimen/add_bookmark_new_folder_list_margin"
+            class="com.android.browser.AddBookmarkPage$CustomListView" />
+
+        <TextView
+            android:id="@+id/empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/add_bookmark_new_folder_list_margin"
+            android:layout_marginTop="@dimen/add_bookmark_new_folder_list_margin"
+            android:text="@string/no_subfolders"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="italic"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</FrameLayout>

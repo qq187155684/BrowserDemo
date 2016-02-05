@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:layout="@layout/pref_empty"
+        android:title="@string/pref_security_show_security_warning_summary" />
+    <com.android.browser.preferences.BrowserYesNoPreference
+        android:dialogIcon="@android:drawable/ic_dialog_alert"
+        android:dialogMessage="@string/pref_privacy_clear_cache_dlg"
+        android:key="privacy_clear_cache"
+        android:layout="@layout/browser_preference_listference_top"
+        android:title="@string/pref_privacy_clear_cache" />
+    <com.android.browser.preferences.BrowserYesNoPreference
+        android:dialogIcon="@android:drawable/ic_dialog_alert"
+        android:dialogMessage="@string/pref_privacy_clear_history_dlg"
+        android:key="privacy_clear_history"
+        android:layout="@layout/browser_preference_listference_middle"
+        android:title="@string/pref_privacy_clear_history" />
+
+    <com.android.browser.preferences.SwitchExPreference
+        android:defaultValue="true"
+        android:key="show_security_warnings"
+        android:title="@string/pref_security_show_security_warning" />
+
+    <PreferenceCategory
+        android:layout="@layout/browser_preference_summary"
+        android:title="@string/pref_security_show_security_warning_summary" />
+    <PreferenceCategory
+        android:layout="@layout/browser_preference_category"
+        android:title="@string/pref_privacy_cookies_title" >
+        <com.android.browser.preferences.SwitchExPreference
+            android:defaultValue="true"
+            android:key="accept_cookies"
+            android:layout="@layout/browser_preference_switch"
+            android:title="@string/pref_security_accept_cookies" />
+
+        <com.android.browser.preferences.BrowserYesNoPreference
+            android:dialogIcon="@android:drawable/ic_dialog_alert"
+            android:dialogMessage="@string/pref_privacy_clear_cookies_dlg"
+            android:key="privacy_clear_cookies"
+            android:layout="@layout/browser_preference_listference_bottom"
+            android:title="@string/pref_privacy_clear_cookies" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/browser_preference_category"
+        android:title="@string/pref_privacy_formdata_title" >
+        <com.android.browser.preferences.SwitchExPreference
+            android:defaultValue="true"
+            android:key="save_formdata"
+            android:layout="@layout/browser_preference_switch"
+            android:title="@string/pref_security_save_form_data" />
+
+        <com.android.browser.preferences.BrowserYesNoPreference
+            android:dialogIcon="@android:drawable/ic_dialog_alert"
+            android:dialogMessage="@string/pref_privacy_clear_form_data_dlg"
+            android:key="privacy_clear_form_data"
+            android:layout="@layout/browser_preference_listference_bottom"
+            android:title="@string/pref_privacy_clear_form_data" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/browser_preference_category"
+        android:title="@string/pref_privacy_location_title" >
+        <com.android.browser.preferences.SwitchExPreference
+            android:defaultValue="true"
+            android:key="enable_geolocation"
+            android:layout="@layout/browser_preference_switch"
+            android:title="@string/pref_privacy_enable_geolocation" />
+
+        <com.android.browser.preferences.BrowserYesNoPreference
+            android:dependency="enable_geolocation"
+            android:dialogIcon="@android:drawable/ic_dialog_alert"
+            android:dialogMessage="@string/pref_privacy_clear_geolocation_access_dlg"
+            android:key="privacy_clear_geolocation_access"
+            android:layout="@layout/browser_preference_listference_bottom"
+            android:title="@string/pref_privacy_clear_geolocation_access" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/browser_preference_category"
+        android:title="@string/pref_security_passwords_title" >
+        <com.android.browser.preferences.SwitchExPreference
+            android:defaultValue="true"
+            android:key="remember_passwords"
+            android:layout="@layout/browser_preference_switch"
+            android:title="@string/pref_security_remember_passwords" />
+
+        <com.android.browser.preferences.BrowserYesNoPreference
+            android:dialogIcon="@android:drawable/ic_dialog_alert"
+            android:dialogMessage="@string/pref_privacy_clear_passwords_dlg"
+            android:key="privacy_clear_passwords"
+            android:layout="@layout/browser_preference_listference_bottom"
+            android:title="@string/pref_privacy_clear_passwords" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/pref_empty"
+        android:title="@string/pref_security_show_security_warning_summary" />
+
+</PreferenceScreen>

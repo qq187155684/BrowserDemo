@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:layout_gravity="center"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/icon"
+        android:clipChildren="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/item_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/jd" />
+            <!-- android:layout_width="@dimen/nav_icon_width" -->
+            <!-- android:layout_height="@dimen/nav_icon_height" -->
+
+        <ImageView
+            android:id="@+id/img_shadow_mask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12.33dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/shadow_mask_selector"
+            android:visibility="invisible" />
+
+        <RelativeLayout
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="81dp"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:visibility="visible" >
+
+            <ImageView
+                android:id="@+id/nav_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4.67dp"
+                android:layout_centerVertical="true"
+                android:scaleType="matrix"
+                android:src="@drawable/nav_delete_selector" />
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/nav_delete_mask"
+                android:scaleType="matrix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nav_delete_mask_selector" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:paddingTop="2dp"
+        android:singleLine="true"
+        android:textColor="@color/nav_text_color"
+        android:textSize="12sp" />
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2010 The Android Open Source Project Licensed under the
+    Apache License, Version 2.0 (the "License"); you may not use this file
+    except in compliance with the License. You may obtain a copy of the
+    License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by
+    applicable law or agreed to in writing, software distributed under the
+    License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+    CONDITIONS OF ANY KIND, either express or implied. See the License for
+    the specific language governing permissions and limitations under the
+    License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- object animation 720 -->
+    <integer name="find_on_page_close_end_point">1200</integer>
+    <integer name="find_edit_width">956</integer>
+    <integer name="find_on_page_end_point">1280</integer>
+
+    <integer name="in_from_left_from">-1280</integer>
+    <integer name="in_from_right_from">1280</integer>
+    <integer name="out_to_left_to">-1280</integer>
+    <integer name="out_to_right_to">1280</integer>
+</resources>

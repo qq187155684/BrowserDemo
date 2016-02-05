@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="horizontal" >
+
+    <!-- id must match corresponding menu item id -->
+
+    <LinearLayout
+        android:id="@+id/action_cancel"
+        style="@style/EditEventCustomActionButton"
+        android:layout_width="wrap_content"
+        android:background="@drawable/btn_title_back_selector" > <!-- style="@style/EditEventCustomActionButton" -->
+        <TextView
+            android:id="@+id/action_cancel_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:text="@string/cancel"
+            android:textColor="@color/browser_history_item_back_color"
+            android:textSize="@dimen/actionbar_button_text_size"
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/action_back_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:text="@string/back"
+            android:textColor="@color/browser_history_item_back_color"
+            android:textSize="@dimen/actionbar_button_text_size"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/action_new_event_text"
+        android:layout_weight="1"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:orientation="horizontal"
+        android:textColor="@color/browser_actionbar_title"
+        android:textSize="@dimen/editeventcustomactionbar_text_size" />
+
+    <LinearLayout
+        android:id="@+id/action_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_title_blue_selector" >
+        <TextView
+            android:id="@+id/edit_event"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/import_bookmarks_wizard_done"
+            android:textColor="@color/browser_history_actionbar_color"
+            android:textSize="@dimen/actionbar_button_text_size" />
+    </LinearLayout>
+
+</LinearLayout>

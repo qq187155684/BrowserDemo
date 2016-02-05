@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/empty_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/empty_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/empty_page_img_margin_top"
+        android:background="@drawable/blank_bookmark" />
+
+    <TextView
+        android:id="@+id/empty_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/empty_img"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="@dimen/empty_page_text_padding_bottom"
+        android:paddingTop="@dimen/empty_page_text_padding_top"
+        android:text="@string/bookmark_is_null"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/browser_empty_text_color"
+        android:textSize="@dimen/empty_page_text_size" />
+
+    <TextView
+        android:id="@+id/empty_text_summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/empty_text"
+        android:layout_centerHorizontal="true"
+        android:text="@string/bookmark_display_here"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/browser_empty_text_color"
+        android:textSize="@dimen/empty_page_text_summary_size" />
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.android.myapidemo.smartisan.navigation.GlobalSearchBar
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <com.android.myapidemo.smartisan.navigation.AnimatedExpandableListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_bar"
+        android:childDivider="@drawable/expand_line"
+        android:divider="@drawable/expand_line"
+        android:groupIndicator="@null"
+        android:scrollbars="none" />
+
+    <ListView
+        android:id="@+id/search_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_below="@id/search_bar"
+        android:divider="@drawable/expand_line"
+        android:scrollbars="none"
+        android:visibility="gone" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/search_empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_bar"
+        android:background="#f7f8f8"
+        android:gravity="center_horizontal"
+        android:paddingTop="115dp"
+        android:text="@string/no_search_result"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#4c000000"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/sv_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_bar"
+        android:background="#99000000"
+        android:visibility="gone" />
+</RelativeLayout>

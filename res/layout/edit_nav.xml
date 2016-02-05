@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.myapidemo.smartisan.view.ResizeRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/resizeLayout"
+    android:layout_height="match_parent"
+    android:background="@drawable/group_bg_repeat"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/add_bookmark_new_folder_editext_margin_top2" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_field" > <!-- android:background="@drawable/text_field" -->
+
+            <AutoCompleteTextView
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/add_bookmark_new_folder_editext_height"
+                android:background="@color/transparent"
+                android:completionThreshold="2"
+                android:ellipsize="end"
+                android:focusable="true"
+                android:scrollbars="none"
+                android:layout_marginTop="2dp"
+                android:hint="@string/input_url_hint"
+                android:inputType="textUri"
+                android:maxWidth="@dimen/add_bookmark_new_folder_editext_maxwidth"
+                android:paddingRight="@dimen/add_bookmark_new_folder_title_padding_right"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <!-- wrap_content -->
+
+            <EditText
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/add_bookmark_new_folder_editext_height"
+                android:layout_below="@+id/address"
+                android:background="@color/transparent"
+                android:maxWidth="@dimen/add_bookmark_new_folder_editext_maxwidth"
+                android:ellipsize="end"
+                android:paddingRight="@dimen/add_bookmark_new_folder_title_padding_right"
+                android:paddingBottom="4dp"
+                android:focusable="true"
+                android:hint="@string/input_title_hint"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            <!-- android:hint="@string/http" -->
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/clear_address_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="1dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right|center_vertical"
+            android:paddingRight="@dimen/add_bookmark_new_folder_clear_button_padding"
+            android:src="@drawable/clear_btn_selector"
+            android:visibility="gone" >
+        </ImageView>
+         <ImageView
+            android:id="@+id/clear_title_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="49dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right|center_vertical"
+            android:paddingRight="@dimen/add_bookmark_new_folder_clear_button_padding"
+            android:src="@drawable/clear_btn_selector"
+            android:visibility="gone" >
+        </ImageView>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/shadow"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/add_nav_shadow" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/add_bookmark_divider"
+        android:layout_marginLeft="@dimen/add_bookmark_edit_divider_margin_left"
+        android:layout_marginRight="@dimen/add_bookmark_edit_divider_margin_right"
+        android:layout_marginTop="@dimen/add_bookmark_edit_divider_margin_top"
+        android:background="@drawable/dividing_line" />
+
+    <com.android.browser.QuickBar
+        android:id="@+id/quick_input_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/quick_bar_bg"
+        android:orientation="horizontal"/>
+
+</com.android.myapidemo.smartisan.view.ResizeRelativeLayout>

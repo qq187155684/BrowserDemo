@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Browser activity -->
+    <!--
+         Context Menu item to open the currently selected link in a new
+            window.
+    -->
+    <string name="contextmenu_openlink_newwindow">Open in New Tab</string>
+    <string name="contextmenu_openlink_inbackground">"Open in Background Tab"</string>
+    <string name="find_on_page">Find on Page</string>
+    <string name="menu_to_incog">Enter Incognito Mode</string>
+    <string name="menu_exit_incog">Leave Incognito Mode</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="no_matches">no matches</string>
+    <!-- This is the hint text shown in the Go To widget, before text is entered. -->
+    <string name="search_hint">Search or Type URL</string>
+    <string name="search_incognito_hint">Incognito Mode Turned ON</string>
+    <string name="search_baidu">Search in Baidu</string>
+    <string name="search_google">Search in Google</string>
+    <string name="search_bing">Search in Bing</string>
+    <string name="search_139">Search in 139</string>
+    <string name="search_yahoo">Search in Yahoo</string>
+    <!-- Popup menu checkbox that allows the user to request the desktop version of a webpage [CHAR LIMIT=50] -->
+    <string name="ua_switcher_desktop">Request Desktop Site</string>
+    <!-- Popup menu checkbox that allows the user to request the mobile version of a webpage [CHAR LIMIT=50] -->
+    <string name="ua_switcher_mobile">Request Mobile Site</string>
+    <string name="add_bookmark_path">add bookmark path</string>
+    <string name="copylink_and_share">"Copy &amp; Share this Link"</string>
+    <string name="contextmenu_copy_image">Copy Image Address</string>
+    <!-- Browser title bar -->
+    <string name="title_search_normal_hint">Search</string>
+    <string name="title_search_edit_hint">Enter Keyword(s)</string>
+    <string name="title_address_hint">Enter an Address</string>
+    <string name="blank_page">Blank Page</string>
+    
+    <!-- The name of the add bookmark page activity. -->
+    <string name="bookmarks_add_page">Save bookmark</string>
+    <!-- Error that appears in the title of Bookmark dialog when user selects OK with empty Location field -->
+    <string name="bookmark_needs_url">"Bookmark Must Have a Location"</string>
+    <string name="bookmark_needs_title">"Bookmark Must Have a Name"</string>
+    <string name="bookmark_saved">Saved to Bookmarks</string>
+    <!-- Add bookmark -->
+    <string name="folder_name_not_null">Folder Name Cannot be Empty</string>
+
+    <!-- Browser bookmark -->
+    <string name="bookmarks_save_target">"Save to"</string>
+    <string name="bookmark_is_null">"No Bookmarks"</string>
+    <string name="bookmark_display_here">"Bookmarks will appear here"</string>
+    <string name="bookmark_edit">Edit</string>
+    <!--
+         Confirmation dialog message confirming that the user wishes to delete
+            the bookmark they selected for deletion
+    -->
+    <string name="delete_bookmark_warning">Delete this Bookmark?</string>
+    <!-- Context menu item to edit a folder [CHAR LIMIT=50] -->
+    <string name="edit_folder">Edit folder</string>
+    <!-- Option on bookmark dialog to remove the bookmark [CHAR LIMIT=30] -->
+    <string name="remove">Remove</string>
+
+    <!-- Browser history -->
+    <string name="history_clear_all">Clear All</string>
+    <string name="delete_dialog_confirm">Clear All History?</string>
+    <string name="share_dialog_cancel">Cancel</string>
+    <string name="delete_note_confirm">Delete</string>
+    <string name="clear_all_tabs" msgid="4243829645180686912">"Close"</string>
+    <string name="have_copied">"Copied"</string>
+    <string name="history_display_here">"Your browser history will appear here"</string>
+    <!-- Appears on History screen if no history is found -->
+    <string name="empty_history">No Items</string>
+
+    <!-- settings -->
+    <!-- Location settings category [CHAR-LIMIT=50] -->
+    <string name="pref_privacy_location_title">Location</string>
+    <!-- Confirmation dialog message -->
+    <string name="pref_privacy_clear_cache_dlg">Delete locally cached content and databases?</string>
+    <!-- Confirmation dialog message -->
+      <string name="pref_privacy_clear_cookies_dlg">Delete all cookies?</string>
+    <!-- Confirmation dialog message -->
+    <string name="pref_extras_reset_default_dlg">Revert settings to default values?</string>
+    <string name="pref_privacy_clear_history">Clear History</string>
+    <!-- Confirmation dialog message -->
+    <string name="pref_privacy_clear_history_dlg">Delete the browser navigation history?</string>
+    <!-- Confirmation dialog message -->
+    <string name="pref_privacy_clear_passwords_dlg">Delete all saved passwords?</string>
+    <!-- Confirmation dialog message -->
+    <string name="pref_privacy_clear_geolocation_access_dlg">Clear website location access?</string>
+    <!-- Settings summmary -->
+    <string name="pref_security_show_security_warning_summary">Show warning if there\'s a problem with a site\'s security.</string>
+    <!-- Summary for search preloading [CHAR LIMIT=80] -->
+    <string name="pref_data_preload_summary">Allow browser to preload high confidence search results in the background.</string>
+    <!-- Summary for link prefetching [CHAR LIMIT=80] -->
+    <string name="pref_link_prefetch_summary">Allow browser to preload linked web pages in the background.</string>
+    <!-- Title for search preloading [CHAR LIMIT=40] -->
+    <string name="pref_data_preload_title">Search Result Preloading</string>
+    <!-- Title for link prefetching [CHAR LIMIT=40] -->
+    <string name="pref_link_prefetch_title">Web Page Preloading</string>
+    <!-- Title for bandwidth management preference [CHAR LIMIT=25] -->
+    <string name="pref_data_title">Bandwidth Management</string>
+    <!-- Permissions prompt toast -->
+    <string name="geolocation_permissions_prompt_toast_allowed">This site can access your location. You can change this in Settings &gt; Privacy &amp; Security</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">This site cannot access your location. You can change this in Settings &gt; Privacy &amp; Security</string>
+    <!-- Download complete string-->
+    <string name="completed_success"> "<xliff:g id="filename">%1$s</xliff:g>" download completed</string>
+    <!-- Settings default zoom options; appear in default zoom dialog box -->
+    <string-array name="pref_default_zoom_choices">
+        <item>Far</item>
+        <item>Medium</item>
+        <item>Close</item>
+    </string-array>
+    <!-- Search preloading options [CHAR LIMIT=20] -->
+    <string-array name="pref_data_preload_choices">
+        <item>Never</item>
+        <item>Only over WLAN</item>
+        <item>Always</item>
+    </string-array>
+    <!-- Link prefetching options [CHAR LIMIT=20] -->
+    <string-array name="pref_link_prefetch_choices">
+        <item>Never</item>
+        <item>Only over WLAN</item>
+        <item>Always</item>
+    </string-array>
+    <!-- Plugin options -->
+    <string-array name="pref_content_plugins_choices">
+        <item>Always On</item>
+        <item>On Demand</item>
+        <item>Off</item>
+    </string-array>
+
+    <!-- AlertDialog of Preparing Download -->
+    <string name="whether_download_file">Confirm Download?</string>
+    <string name="download_file_tip">The file will be saved to folder \"Download\"</string>
+    <string name="download">Download</string>
+
+    <!-- shake restore related -->
+    <string name="is_close_all_tabs">Sure to Close All Tabs?</string>
+    <string name="is_resume_closed_tab">Shake to Restore A Recently Closed Tab</string>
+    <string name="now_resume_closed_tab">Now You Can Shake to Restore the Recently Closed Tab</string>
+    <string name="resume_closed_tab">Restore a Closed Tab</string>
+    <string name="no_tab_need_resume">No Tabs to Restore</string>
+    <string name="just_shake_the_phone">You Just Shaken Your Phone</string>
+    <string name="disable_the_feature">Disable</string>
+    <string name="enable_the_feature">Enable</string>
+    <string name="description_of_shake_restore">You can shake to restore a recently closed tab. Your currently open tabs will not be disrupted. You can disable this feature in Browser Settings.</string>
+    <string name="toast_to_disable_shake_restore">Disabled “Shake to Restore”</string>
+    <string name="operation_shortcut">Shortcuts</string>
+    <string name="advanced_settings">Advanced</string>
+    <string name="option_shake">Shake to Restore</string>
+    <string name="shake_ok">OK</string>
+    <string name="copy_link">Copy Link</string>
+    <string name="circle_of_friends">Moments</string>
+    <string name="wechat_share">WeChat</string>
+    <string name="already_copied">Website Has been Copied to Clipboard</string>
+
+    <!-- read mode -->
+    <string name="readmode">Read Mode</string>
+    <string name="style">Style</string>
+    <string name="font_size">Size</string>
+
+    <string name="block_js_popup">Prevent this page from creating addational dialogs</string>
+    <string name="js_dialog_title">The page at \"<xliff:g id="title">%s</xliff:g>\" says:</string>
+    <string name="js_dialog_before_unload_title">Confirm Navigation</string>
+    <string name="js_dialog_before_unload_positive_button">Leave this Page</string>
+    <string name="js_dialog_before_unload_negative_button">Stay on this Page</string>
+    <string name="js_dialog_before_unload"><xliff:g id="message">%s</xliff:g>\n\nAre you sure you want to navigate away from this page?</string>
+
+    <string name="quick_open">Link Shortcut</string>
+    <string name="quick_launcher">Link Launcher</string>
+    <string name="quick_launcher_description">A floating shortcut appears whenever you copy a link in another app</string>
+
+    <string name="save_offline">Save to View Offline</string>
+
+    <!-- string for quick input bar. DO NOT TRANSLATE-->
+    <string name="quick_https">https://</string>
+    <string name="quick_www">www.</string>
+    <string name="quick_dot">.</string>
+    <string name="quick_slash">/</string>
+    <string name="quick_com">.com</string>
+    <string name="quick_cn">.cn</string>
+    <string name="quick_net">.net</string>
+    <string name="quick_org">.org</string>
+    <string name="quick_me">.me</string>
+    <string name="quick_m">m.</string>
+    <string name="quick_bbs">bbs.</string>
+    <string name="quick_blog">blog.</string>
+    <string name="quick_wap">wap.</string>
+
+    <string-array name="nav_left_infos">
+        <!-- title , url, text color , bitmapPath-->
+        <item>百度@http://m.baidu.com/?from=1013377a@-1@assets/icons/baidu_com.png</item>
+        <item>网易新闻@http://news.163.com@-1@assets/icons/163_com.png</item>
+        <item>58同城@http://jump.luna.58.com/i/26jg@-1@assets/icons/58_com.png</item>
+        <item>豆瓣@http://www.douban.com@-1@assets/icons/douban_com.png</item>
+        <item>什么值得买@http://m.smzdm.com@-1@assets/icons/smzdm_com.png</item>
+        <item>好奇心日报@http://www.qdaily.com@-1@assets/icons/qdaily_com.png</item>
+        <item>唯品会@http://ap.vip.com/smartisancn@-1@assets/icons/vip_com.png</item>
+        <item>最美应用@http://zuimeia.com/?utm_source=smartisan&amp;utm_medium=browser&amp;utm_campaign=referral@-1@assets/icons/zuimeia_com.png</item>
+        <item>去哪儿旅游@http://touch.qunar.com@-1@assets/icons/qunar_com.png</item>
+        <item>美团@http://i.meituan.com@-1@assets/icons/meituan_com.png</item>
+        <item>东方财富@http://wap.eastmoney.com@-1@assets/icons/eastmoney_com.png</item>
+        <item>腾讯文学@http://ubook.qq.com@-1@assets/icons/ubook_qq_com.png</item>
+    </string-array>
+    <string name="no_search_result">No Result</string>
+    <string name="add_nav_title">Add to Navigation</string>
+    <string name="add_nav_title_by_hand">Maunually Add</string>
+    <string name="nav_added">Added</string>
+    <string name="nav_adding">Add</string>
+    <string name="input_url_hint">Enter URL Here</string>
+    <string name="input_title_hint">Enter Description Here</string>
+    <string name="url_not_true">The URL is Not Valid</string>
+    <string name="edit_nav_title">Edit</string>
+    <string name="add_by_hand">Manual Add</string>
+    <string name="icon_url">http://icon.smartisan.com/browser/static/"<xliff:g id="domain">%1$s</xliff:g>".json</string>
+    <string name="icon_list_url">http://icon.smartisan.com/browser/static/list.json</string>
+    <string name="cmcc_homepage_url">http://go.10086.cn/rd/go/dh/</string>
+    <!-- default bookmarks-->
+    <string name="bookmark_default_folder">CMCC</string>
+    <!-- CMCC -->
+    <string name="tabs_limit_title">"Too Many Open Tabs"</string>
+    <string name="tabs_limit_not_prompt">"Don't remind me again"</string>
+    <string name="tabs_limit_warning">"You have reached the maximum possible number of open tabs. If you wish to open any more, the browser will have to first close other tabs to make room for them, starting with the oldest. Do you wish to continue?
+"</string>
+
+</resources>

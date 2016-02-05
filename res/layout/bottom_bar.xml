@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/previous_btn"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="left|center_vertical"
+        android:src="@drawable/bottombar_previous_page_selector" >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/next_btn"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:src="@drawable/bottombar_next_page_selector" >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/switch_btn"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bottombar_switch_tab_selector"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/newtab_btn"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:src="@drawable/bottombar_add_tab_selector" >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/menu_btn"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right|center_vertical"
+        android:src="@drawable/bottombar_menu_selector" >
+    </ImageView>
+
+</merge>

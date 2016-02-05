@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:clickable="true"
+    android:background="@drawable/title_bg"
+    android:orientation="horizontal" >
+
+    <!-- id must match corresponding menu item id -->
+
+    <TextView
+        android:id="@+id/header_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_title_selector"
+        android:gravity="center"
+        android:text="@string/import_bookmarks_wizard_done"
+        android:textColor="@color/browser_history_item_back_color"
+        android:textSize="@dimen/actionbar_button_text_size" />
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/add_nav_title"
+        android:textColor="@color/browser_actionbar_title"
+        android:textSize="@dimen/editeventcustomactionbar_text_size" />
+
+    <TextView
+        android:id="@+id/header_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/browser_actionbar_title"
+        android:text="@string/add_by_hand"
+        android:background="@drawable/btn_title_selector"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/header_right_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_title_blue_selector"
+        android:gravity="center"
+        android:text="@string/autofill_profile_editor_save_profile"
+        android:textColor="@color/browser_history_actionbar_color"
+        android:textSize="@dimen/actionbar_button_text_size"
+        android:visibility="gone" />
+
+</LinearLayout>

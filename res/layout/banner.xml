@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:orientation="horizontal" >
+
+  <LinearLayout
+    android:id="@+id/child"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/clipboard_bar_bg"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="63dip"
+      android:layout_marginTop="12dip"
+      android:layout_marginRight="12dip"
+      android:layout_marginLeft="12dip"
+      android:orientation="horizontal" >
+      <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/clipboard_floater_icon" />
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dip"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+          android:id="@+id/title"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/quick_open"
+          android:textColor="#cc000000"
+          android:textSize="15sp" />
+
+        <TextView
+          android:id="@+id/url"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:singleLine="true"
+          android:textColor="#80000000"
+          android:textSize="13sp" />
+      </LinearLayout>
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>

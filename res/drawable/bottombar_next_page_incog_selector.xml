@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/next_page_icon_down_private" android:state_pressed="true"/>
+    <item android:drawable="@drawable/next_page_icon_disabled_private" android:state_enabled="false"/>
+    <item android:drawable="@drawable/next_page_icon_private"/>
+</selector>

@@ -1,0 +1,216 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+  <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/quick_https"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/quick_https"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@drawable/quick_button_colorlist"
+            android:background="@drawable/quick_button_selector"
+            android:gravity="center"
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/quick_bar_line" />
+        <TextView
+            android:id="@+id/quick_dot"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/quick_dot"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@drawable/quick_button_colorlist"
+            android:background="@drawable/quick_button_selector"
+            android:gravity="center"
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/quick_bar_line" />
+        <TextView
+            android:id="@+id/quick_slash"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/quick_slash"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@drawable/quick_button_colorlist"
+            android:background="@drawable/quick_button_selector"
+            android:gravity="center"
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/quick_bar_line" />
+        <TextView
+            android:id="@+id/quick_com"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/quick_com"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@drawable/quick_button_colorlist"
+            android:background="@drawable/quick_button_selector"
+            android:gravity="center"
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/quick_bar_line" />
+        <TextView
+            android:id="@+id/quick_cn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/quick_cn"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@drawable/quick_button_colorlist"
+            android:background="@drawable/quick_button_selector"
+            android:gravity="center"
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/quick_bar_line" />
+        <TextView
+            android:id="@+id/quick_net"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/quick_net"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@drawable/quick_button_colorlist"
+            android:background="@drawable/quick_button_selector"
+            android:gravity="center"
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/quick_bar_line" />
+        <TextView
+            android:id="@+id/quick_org"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/quick_org"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@drawable/quick_button_colorlist"
+            android:background="@drawable/quick_button_selector"
+            android:gravity="center"
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/quick_bar_line" />
+        <TextView
+            android:id="@+id/quick_me"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/quick_me"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@drawable/quick_button_colorlist"
+            android:background="@drawable/quick_button_selector"
+            android:gravity="center"
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/quick_bar_line" />
+        <TextView
+            android:id="@+id/quick_www"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/quick_www"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@drawable/quick_button_colorlist"
+            android:background="@drawable/quick_button_selector"
+            android:gravity="center"
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/quick_bar_line" />
+        <TextView
+            android:id="@+id/quick_m"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/quick_m"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@drawable/quick_button_colorlist"
+            android:background="@drawable/quick_button_selector"
+            android:gravity="center"
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/quick_bar_line" />
+        <TextView
+            android:id="@+id/quick_bbs"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/quick_bbs"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@drawable/quick_button_colorlist"
+            android:background="@drawable/quick_button_selector"
+            android:gravity="center"
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/quick_bar_line" />
+        <TextView
+            android:id="@+id/quick_blog"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/quick_blog"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@drawable/quick_button_colorlist"
+            android:background="@drawable/quick_button_selector"
+            android:gravity="center"
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/quick_bar_line" />
+        <TextView
+            android:id="@+id/quick_wap"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/quick_wap"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@drawable/quick_button_colorlist"
+            android:background="@drawable/quick_button_selector"
+            android:gravity="center"
+        />
+    </LinearLayout>
+  </HorizontalScrollView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/quick_bar_left_shadow"
+        android:layout_alignParentLeft="true" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/quick_bar_right_shadow"
+        android:layout_alignParentRight="true" />
+</merge>

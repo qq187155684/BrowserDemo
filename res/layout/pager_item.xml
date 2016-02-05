@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <FrameLayout
+        android:id="@+id/frame0"
+        android:background="@drawable/window_shadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" >
+
+        <com.android.browser.NavTabView
+            android:id="@+id/tab0"
+            android:layout_width="@dimen/nav_tab_width"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/image0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-22dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@drawable/close_tab_selector" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frame1"
+        android:background="@drawable/window_shadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-18dp"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@id/frame0" >
+
+        <com.android.browser.NavTabView
+            android:id="@+id/tab1"
+            android:layout_width="@dimen/nav_tab_width"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-22dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@drawable/close_tab_selector" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frame2"
+        android:layout_below="@id/frame0"
+        android:background="@drawable/window_shadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp" >
+
+        <com.android.browser.NavTabView
+            android:id="@+id/tab2"
+            android:layout_width="@dimen/nav_tab_width"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-22dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@drawable/close_tab_selector" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frame3"
+        android:layout_below="@id/frame1"
+        android:background="@drawable/window_shadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-18dp"
+        android:layout_marginTop="-10dp"
+        android:layout_toRightOf="@id/frame2" >
+
+        <com.android.browser.NavTabView
+            android:id="@+id/tab3"
+            android:layout_width="@dimen/nav_tab_width"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-22dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@drawable/close_tab_selector" />
+    </FrameLayout>
+</merge>

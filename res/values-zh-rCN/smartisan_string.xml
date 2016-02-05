@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Browser activity -->
+    <string name="contextmenu_openlink_newwindow" msgid="1205313604181761403">"在新标签打开"</string>
+    <string name="contextmenu_openlink_inbackground">"在后台标签打开"</string>
+    <string name="find_on_page">"在网页上查找文字"</string>
+    <string name="menu_to_incog">"进入隐私模式"</string>
+    <string name="menu_exit_incog">"退出隐私模式"</string>
+    <string name="night_mode">"开启夜间模式"</string>
+    <string name="no_matches">"无匹配项"</string>
+    <string name="search_hint" msgid="4647356319916631820">"请输入搜索内容或网址"</string>
+    <string name="search_incognito_hint">"浏览器处于隐私模式"</string>
+    <string name="search_139">"在 139 中搜索"</string>
+    <string name="search_baidu">"在百度中搜索"</string>
+    <string name="search_google">"在谷歌中搜索"</string>
+    <string name="search_bing">"在必应中搜索"</string>
+    <string name="search_yahoo">"在雅虎中搜索"</string>
+    <string name="ua_switcher_desktop" msgid="220097077327558435">"切换到电脑版网站"</string>
+    <string name="ua_switcher_mobile">"切换到手机版网站"</string>
+    <string name="add_bookmark_path">"添加到书签"</string>
+    <string name="copylink_and_share">复制或分享此链接</string>
+    <string name="contextmenu_copy_image">"复制图片网址链接"</string>
+    <!-- Browser title bar -->
+    <string name="title_search_normal_hint">"搜索"</string>
+    <string name="title_search_edit_hint">"请输入搜索关键词"</string>
+    <string name="title_address_hint">"输入网址"</string>
+    <string name="blank_page">"空白页"</string>
+    <!-- download complete -->
+    <string name="completed_success"> “<xliff:g id="filename">%1$s</xliff:g>” 下载完成</string>
+    <!-- Browser add bookmark page -->
+    <string name="bookmarks_save_target">"保存至"</string>
+    <string name="bookmarks_add_page" msgid="3093456701072617702">"保存书签"</string>
+    <string name="bookmark_needs_url" msgid="7809876865972755158">"书签必须具有地址"</string>
+    <string name="folder_name_not_null">"文件夹名称不能为空"</string>
+
+    <!-- Browser bookmark -->
+    <string name="bookmark_is_null">"书签为空"</string>
+    <string name="bookmark_display_here">"保存的书签将会出现在这里"</string>
+    <string name="bookmark_edit">"编辑"</string>
+    <string name="delete_bookmark_warning" msgid="7825328496411904321">"确认要删除这条书签？"</string>
+    <string name="edit_folder" msgid="621817453133656156">"编辑文件夹"</string>
+    <string name="remove" msgid="7820112494467011374">"移除"</string>
+
+    <!-- Browser history -->
+    <string name="history_clear_all">"清空"</string>
+    <string name="delete_dialog_confirm">确认要清空历史记录？</string>
+    <string name="share_dialog_cancel">取消</string>
+    <string name="delete_note_confirm">删除</string>
+    <string name="clear_all_tabs" msgid="4243829645180686912">"关闭"</string>
+    <string name="have_copied">"已复制"</string>
+    <string name="history_display_here">"你的浏览记录将会出现在这里"</string>
+    <string name="empty_history" msgid="7013369425484218985">"历史记录为空"</string>
+
+    <!-- settings -->
+    <string name="pref_privacy_location_title" msgid="7458378016606081067">"位置"</string>
+    <string name="pref_privacy_clear_cache_dlg" msgid="4344512581716422465">"将会清除本地缓存的内容和数据"</string>
+    <string name="pref_privacy_clear_cookies_dlg" msgid="1493252163164621278">"将会清除所有 Cookie 数据"</string>
+    <string name="pref_extras_reset_default_dlg" msgid="7922814420184322450">"将会恢复所有设置为默认值"</string>
+    <string name="pref_privacy_clear_history_dlg" msgid="6934317391642846227">"将会清除浏览器所有的历史记录"</string>
+    <string name="pref_privacy_clear_history" msgid="8723795508825198477">"清除历史记录"</string>
+    <string name="pref_privacy_clear_passwords_dlg" msgid="5836576259947160045">"将会清除所有已保存的用户名和密码"</string>
+    <string name="pref_privacy_clear_geolocation_access_dlg" msgid="3190928760598034346">"将会取消所有的位置信息授权"</string>
+    <string name="pref_privacy_clear_form_data_dlg" msgid="8205626042241338983">"将会清除所有保存的表单数据"</string>
+    <string name="pref_security_show_security_warning_summary" msgid="5260098316025397525">"当访问不安全网站时显示警告"</string>
+    <string name="pref_data_preload_summary" msgid="3809168910751382727">"如果开启此项，浏览器将提前加载地址栏中关键词的搜索结果"</string>
+    <string name="pref_link_prefetch_summary" msgid="6558181497993206817">"如果开启此项，浏览器将提前加载地址栏中网址所对应的网页"</string>
+    <string name="pref_data_preload_title" msgid="4479320472980292873">"提前加载搜索结果"</string>
+    <string name="pref_link_prefetch_title" msgid="4123685219009241072">"提前加载网页"</string>
+    <string name="pref_data_title" msgid="7255058703417796578">"流量管理"</string>
+    <string name="geolocation_permissions_prompt_toast_allowed" msgid="7201417941112726112">"此网站可以获取你的位置信息。你可以在“设置 - 隐私和安全”中更改此设置"</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed" msgid="156443445797377409">"此网站无法获取你的位置信息。你可以在“设置 - 隐私和安全”中更改此设置"</string>
+
+    <string-array name="pref_default_zoom_choices">
+        <item msgid="549583171195154919">"小"</item>
+        <item msgid="5619034257768161024">"中"</item>
+        <item msgid="3840999588443167001">"大"</item>
+    </string-array>
+    <string-array name="pref_data_preload_choices">
+        <item msgid="5180466923190095508">"永不"</item>
+        <item msgid="1791664748778640002">"仅限无线网络"</item>
+        <item msgid="3944061253437827617">"始终"</item>
+    </string-array>
+    <string-array name="pref_link_prefetch_choices">
+        <item msgid="4889781230398008031">"永不"</item>
+        <item msgid="1908465963242077428">"仅限无线网络"</item>
+        <item msgid="7647277566998527142">"始终"</item>
+    </string-array>
+    <string-array name="pref_content_plugins_choices">
+        <item msgid="6745108155096660725">"始终启用"</item>
+        <item msgid="2484126708670016519">"在需要时打开"</item>
+        <item msgid="8547442717307793863">"不启用"</item>
+    </string-array>
+
+    <!-- AlertDialog of Preparing Download -->
+    <string name="whether_download_file">是否下载该文件?</string>
+    <string name="download_file_tip">下载的文件将被保存在 Download 文件夹</string>
+    <string name="download">下载</string>
+
+    <!-- shake restore related -->
+    <string name="is_close_all_tabs">要关闭所有的标签页吗？</string>
+    <string name="is_resume_closed_tab">摇晃恢复最近关闭的页面</string>
+    <string name="now_resume_closed_tab">现在你可以摇动手机恢复刚刚关闭的页面</string>
+    <string name="resume_closed_tab">恢复关闭的标签</string>
+    <string name="no_tab_need_resume">没有可以恢复的标签</string>
+    <string name="just_shake_the_phone">你刚摇晃了手机</string>
+    <string name="disable_the_feature">不使用此功能</string>
+    <string name="enable_the_feature">使用此功能</string>
+    <string name="description_of_shake_restore">浏览器可以在你摇晃手机时恢复一个之前关闭的页面。恢复操作不会关闭你当前正浏览的页面。你可以在浏览器设置选项中随时开关这项功能</string>
+    <string name="toast_to_disable_shake_restore">已禁用摇晃恢复标签页功能</string>
+    <string name="operation_shortcut">快捷操作</string>
+    <string name="advanced_settings">高级设置</string>
+    <string name="option_shake">摇动手机恢复标签页</string>
+    <string name="shake_ok">好</string>
+    <string name="copy_link">复制网址</string>
+    <string name="circle_of_friends">微信朋友圈</string>
+    <string name="wechat_share">微信</string>
+    <string name="already_copied">链接已被复制到剪贴板</string>
+
+    <!-- read mode -->
+    <string name="readmode">阅读模式</string>
+    <string name="style">风格</string>
+    <string name="font_size">字号</string>
+
+    <string name="block_js_popup">禁止此页面继续弹出窗口</string>
+    <string name="js_dialog_title" msgid="1987483977834603872">"网址为“<xliff:g id="TITLE">%s</xliff:g>”的网页显示："</string>
+    <string name="js_dialog_before_unload_title" msgid="2619376555525116593">"确认离开"</string>
+    <string name="js_dialog_before_unload_positive_button" msgid="3112752010600484130">"离开此页"</string>
+    <string name="js_dialog_before_unload_negative_button" msgid="5614861293026099715">"留在此页"</string>
+    <string name="js_dialog_before_unload" msgid="3468816357095378590">"<xliff:g id="MESSAGE">%s</xliff:g>\n\n你确定要离开此页面吗？"</string>
+
+    <string name="quick_open">快速打开链接</string>
+    <string name="save_offline">离线保存网页</string>
+    <string name="quick_launcher">快速访问已复制的链接</string>
+    <string name="quick_launcher_description">当你在其它应用中复制一个网址链接时，提供快速打开链接的悬浮窗</string>
+    <string name="add_nav_title">添加导航</string>
+    <string name="add_nav_title_by_hand">手动添加导航</string>
+    <string name="no_search_result">无搜索结果</string>
+    <string name="nav_added">已添加</string>
+    <string name="nav_adding">添加</string>
+    <string name="input_url_hint">请输入网址</string>
+    <string name="input_title_hint">请输入网站标题</string>
+    <string name="url_not_true">当前输入的网址不对</string>
+    <string name="edit_nav_title">编辑快捷导航</string>
+    <string name="add_by_hand">手动添加</string>
+
+    <!-- default bookmarks -->
+    <string-array name="bookmarks" translatable="false">
+        <item>MM网</item>
+        <item>http://a.10086.cn/j/6061/</item>
+        <item>手机阅读</item>
+        <item>http://wap.cmread.com/</item>
+        <item>手机游戏</item>
+        <item>http://g.10086.cn/</item>
+        <item>手机视频</item>
+        <item>http://wap.cmvideo.cn/</item>
+        <item>无线音乐</item>
+        <item>http://m.10086.cn/wireless/html5/index.html/</item>
+        <item>冲浪网址</item>
+        <item>http://go.10086.cn/?coc=6GG2GGRq/</item>
+        <item>飞信首页</item>
+        <item>http://f.10086.cn/</item>
+        <item>139邮箱</item>
+        <item>http://mail.10086.cn/</item>
+        <item>12580</item>
+        <item>http://12580wap.10086.cn/?pid=PCM002942000/</item>
+    </string-array>
+    <!-- default bookmarks -->
+    <string name="bookmark_default_folder">"中国移动"</string>
+    <!-- CMCC -->
+    <string name="tabs_limit_title">"标签数量达到上限"</string>
+    <string name="tabs_limit_not_prompt">"以后不再提示"</string>
+    <string name="tabs_limit_warning">"你打开的标签数量已经达到上限，即将打开的新标签将会替换掉最早的标签页。是否确定要打开新标签页？"</string>
+
+</resources>

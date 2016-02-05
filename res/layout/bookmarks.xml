@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:slv="http://schemas.android.com/apk/res/com.android.myapidemo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/window_list_bg"
+    android:paddingTop="@dimen/combo_paddingTop" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.android.myapidemo.smartisan.browser.bookmarks.BookmarkListView
+            android:id="@+id/grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="always"
+            android:isScrollContainer="true"
+            android:divider="@null"
+            android:dividerHeight="0px"
+            android:layout_marginBottom="@dimen/bookmark_listview_padding_bottom"
+            slv:left_btns_id="@id/item_background"
+            slv:scroll_enabled="true"
+            slv:scroll_factor="0.2"
+            slv:scroll_handle_id="@id/item_foreground"
+            slv:slider_checkbox_id="@id/check_box"
+            slv:slider_enabled="false" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottom_option_bar"
+            android:background="@drawable/tool_bar_shadow"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <RelativeLayout
+            android:id="@+id/bottom_option_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/tool_bar_bg" >
+
+            <TextView
+                android:id="@+id/edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/btn_title_selector"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="@string/history_clear_all"
+                android:textColor="@color/browser_history_bottombar_btn_color"
+                android:textSize="@dimen/history_bottombar_text_size" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/remove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/btn_title_red_selector"
+                android:focusable="true"
+                android:gravity="center"
+                android:textColor="@color/browser_history_actionbar_color"
+                android:textSize="@dimen/history_bottombar_text_size" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/create_new_folder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/btn_title_selector"
+                android:focusable="true"
+                android:gravity="center"
+                android:textColor="@color/browser_history_bottombar_btn_color"
+                android:textSize="@dimen/history_bottombar_text_size" >
+            </TextView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/empty_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+</FrameLayout>

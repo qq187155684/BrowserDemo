@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/http_authentication_colors.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+<!--
+     FIXME: Change the name of this file!  It is now being used generically
+    for the browser
+-->
+<resources>
+
+    <color name="listview_item_divider">#14000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="bookmarkWidgetFaviconBackground">#23ffffff</color>
+    <color name="bookmarkListFaviconBackground">#23ffffff</color>
+    <color name="tabFaviconBackground">#FF555555</color>
+    <color name="tabFocusHighlight">#FF99CC00</color>
+    <color name="qcMenuBackground">#C0000000</color>
+    <color name="qc_normal">#E02A96BC</color>
+    <color name="qc_selected">#E0FF8800</color>
+    <color name="qc_sub">#F01A5B73</color>
+    <color name="qc_tab_nr">#F033B5E5</color>
+    <color name="transparent">#00000000</color>
+    <color name="window_list_bg">#fafafa</color>
+    <!-- TitleBar Color -->
+    <color name="popup_window_font">#cd000000</color>
+    <color name="hint_font">#80000000</color>
+    <color name="disabled_color">#26000000</color>
+    <color name="private_hint_color">#4cffffff</color>
+    <color name="nav_tabview_title">#8b8b8b</color>
+    <color name="nav_tabview_private_title">#4c4c4c</color>
+    <!-- main page background color -->
+    <color name="main_page_bg">#B2B5B9</color>
+    <!-- settings -->
+    <color name="browser_actionbar_title">#626262</color>
+    <color name="browser_title_background_color">#fafafa</color>
+    <color name="browser_item_text_color_highlight">#ffffff</color>
+    <color name="browser_item_content_text_color">#6C8CD5</color>
+    <color name="browser_item_content_text_color_disabled">#7F6C8CD5</color>
+    <color name="browser_item_summary_text_color">#FF7E818B</color>
+    <color name="browser_item_disable_font">#4c000000</color>
+    <!-- history -->
+    <color name="browser_history_actionbar_color">#ffffff</color>
+    <color name="browser_history_item_title_color">#565656</color>
+    <color name="browser_history_item_url_color">#61000000</color>
+    <color name="browser_history_item_back_color">#626266</color>
+    <color name="browser_history_bottombar_btn_color">#626262</color>
+    <color name="browser_history_disable_btn_color">#c8c8c8</color>
+    <color name="browser_empty_text_color">#dbdbdb</color>
+    <color name="webview_find_edit_text_color">#4c000000</color>
+    <color name="webview_find_edit_hint_color">#4c000000</color>
+    <color name="nav_tab_view_current_title">#9f000000</color>
+    <!-- find on page -->
+    <color name="find_on_page_button">#9e000000</color>
+    <color name="input_hint_color">#80ffffff</color>
+    <!-- menu item text select color -->
+    <color name="menu_item_textcolor">#10000000</color>
+
+    <!-- shake dialog -->
+    <color name="shake_dialog_url">#ff878787</color>
+
+    <color name="readmode_title_text_light_color">#ffffff</color>
+
+    <color name="quick_button_text_color">#ff5f5f5f</color>
+    <color name="quick_button_text_pressed_color">#ff424242</color>
+    <color name="home_page_background_color">#ffe7e7e7</color>
+    <color name="btn_shadow_color">#26000000</color>
+    <color name="searchbar_text_color">#000000</color>
+    <color name="nav_line">#D6D6D7</color>
+    <color name="nav_text_color">#909398</color>
+    <!-- addNavigationActivity -->
+    <color name="expand_textview_color">#CC000000</color>
+    <color name="expand_textview_color_disable">#4D333333</color>
+    <color name="expand_child_textview_color">#9A000000</color>
+    <color name="nav_list_line">#EDEDED</color>
+    <color name="nav_group_desc">#9B9B9B</color>
+    <color name="nav_select_color">#08000000</color>
+    <color name="header_mask_color">#999999</color>
+    <color name="addnav_mask_color">#50999999</color>
+</resources>
